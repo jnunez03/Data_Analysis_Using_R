@@ -105,3 +105,4 @@ nrow(HighSodium)  # how many observations or foods are in high sodium
   tapply(USDA$VitaminC, USDA$HighCarbs, max, na.rm=TRUE)
 # Using summary function with tapply
   tapply(USDA$VitaminC, USDA$HighCarbs, summary, na.rm=TRUE)
+# this shows, foods that have high carbs are generally richer in vitamin C. 
