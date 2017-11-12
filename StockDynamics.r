@@ -1,6 +1,6 @@
 #++++++++++++++++++++  STOCK DYNAMICS   ++++++++++++++++++# 
 
-#Read in our csv files...
+#Read in our csv files
 IBM <- read.csv("https://prod-edxapp.edx-cdn.org/assets/courseware/v1/4fc08d10f171aacf2ef61c6b4b5bb4d8/asset-v1:MITx+15.071x+2T2017+type@asset+block/IBMStock.csv")
 GE <- read.csv("https://prod-edxapp.edx-cdn.org/assets/courseware/v1/448b8be4693d913c2b5153be0c0e25d6/asset-v1:MITx+15.071x+2T2017+type@asset+block/GEStock.csv")
 ProcterGamble <- read.csv("https://prod-edxapp.edx-cdn.org/assets/courseware/v1/bb6ed54230b5b2e29fb66819ed535da0/asset-v1:MITx+15.071x+2T2017+type@asset+block/ProcterGambleStock.csv")
