@@ -1,4 +1,4 @@
-# This Repo is designed to show the basics of using R for data analysis. 
+# This Repo is designed to show the basics of using R for data analysis and go through various ML techniques.
 
 How to read a data set into R. The web-link to your .csv file goes inside quotations.
 ```R
