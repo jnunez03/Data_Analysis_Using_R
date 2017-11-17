@@ -20,7 +20,18 @@ pd.read_csv()
 I will analyze data from different data sets. 
 - This repo will show you how to plot, manipulate, and analyze data. And hopefully give you enough skills to go further.
 
-This is a nice [website](https://www.computerworld.com/article/2598083/application-development/app-development-beginner-s-guide-to-r-easy-ways-to-do-basic-data-analysis.html?page=2) for basic R commands for data.
+This is a nice [website](https://www.computerworld.com/article/2598083/application-development/app-development-beginner-s-guide-to-r-easy-ways-to-do-basic-data-analysis.html?page=2) for basic R commands for data analysis.
 
 
 ## Please Enjoy!
+
+
+# What you will find:
+1. Analyzing .csv files
+2. Linear Regression
+3. Logistic Regression
+4. Text Analytics 
+5. Clustering
+6. Random Forest
+ ###### Much More to come.
+
