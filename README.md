@@ -34,7 +34,7 @@ This is a nice [website](https://www.computerworld.com/article/2598083/applicati
 2. Linear Regression
 3. Logistic Regression
 4. Text Analytics 
-5. Clustering
+5. Hierarchical Clustering
 6. Random Forest
  ###### Much More to come.
 
