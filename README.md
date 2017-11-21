@@ -36,5 +36,6 @@ This is a nice [website](https://www.computerworld.com/article/2598083/applicati
 4. Text Analytics (Sentiment Analysis using Twitter)
 5. Hierarchical Clustering
 6. Random Forest
+7. CART models
  ###### Much More to come.
 
