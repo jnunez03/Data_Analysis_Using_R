@@ -1,0 +1,62 @@
+"""
+
+Heart Attack ?  
+
+Variables   |  Description
+    1         Patient-ID 
+    2         Gender
+   3-49       diagnosis group counts 9 months before heart attack
+    50        total cost 9 months before heart attack
+   51-97      diagnosis group counts 6 months before heart attack
+    98        total cost 6 months before heart attack
+   99-145     diagnosis group counts 3 months before heart attack
+   146        total cost 3 months before heart attack
+   147        Yes/No heart attack
+_________________________________________________________________
+- Randomly partition the full data set into two separate parts test and train,  50-50. This was done evenly
+within each cost bin. 
+- The training  set was used to develop the method. 2nd part was the test set. Used to evaluate the models performance.
+
+  -- Patients in each bucket may have different characteristics. For this reason, we create clusters for each cost bucket
+     AND make predictions for each cluster using Random Forest Algorithm.
+   
+  - Clustering is used in the absence of a target variable to search for relationships among input variables to organize data
+    into meaningful groups. Although the target variable is well-defined as a heart attack, or not, there are many different trajectories
+    that are associated with the target. There is no one set pattern that leads to a heart attack.
+
+
+                             create cluster 1   ---- Train random forest model 1    
+                          /        :                          :
+            training data          :                          :
+          /               \        :                          :
+                            create cluster k   -----  Train random forest model k
+        /                   
+cost bucket                 -----------------------------------------------------------    
+         \                  Use cluster 1  ---- Test random forest model 1
+          \             /         :                      :
+              test data           :                      :
+                       \          :                      :
+                          Use cluser k    ---- Test random forest model k
+
+
+
+Spectral clustering method and k-means.
+
+K-Means Algorithm: 
+1. specify number of clusters k
+2. randomly assign each data point to a cluster
+3. compute cluster centroids
+4. re assingn each point to the clostest cluster centroid
+5. Re-compute cluster centroids
+6. Repeat 4 & 5 until no improvement is made.
+
+Practical considerations:
+1. Number of clusters k can be selected from previous knowledge or experimenting.
+2. Can strategically select initial partition of points into clusters if you have some knowledge of the data.
+3. Can run algorithm several times with different random starting points.
+
+Random forest without clustering: cost bucket 1: 49% bucket 2: 56% bucket 3: 58.3%
+              With Clustering   :             1: 65%        2: 73%        3: 78.25%
+
+""" 
+We see that accuracy increases when clustering is added. 
