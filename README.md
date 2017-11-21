@@ -1,4 +1,9 @@
-# This Repo is designed to show the basics of using R for data analysis and go through various ML techniques.
+# Machine Learning with R!
+
+> In God we trust, all other brings data. - William Deming
+_________________________________________________________________________________
+
+
 
 How to read a data set into R. The web-link to your .csv file goes inside quotations.
 ```R
@@ -22,8 +27,6 @@ I will analyze data from different data sets.
 
 This is a nice [website](https://www.computerworld.com/article/2598083/application-development/app-development-beginner-s-guide-to-r-easy-ways-to-do-basic-data-analysis.html?page=2) for basic R commands for data analysis.
 
-
-## Please Enjoy!
 
 
 # What you will find:
