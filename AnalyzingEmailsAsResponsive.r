@@ -92,7 +92,7 @@ plot(perfROCR, colorize=TRUE)
 # vast majority are non repsonsive, so result in decrease in manual effort for detecting.
 # blue color on y axis, threshold at about .15. 
 
-# USE ROCR package to comput auc value,
+# USE ROCR package to compute auc value,/.
 
 performance(predROCR, "auc")@y.values
 # means, our model can differetiate between a randomly selected responsive and non responsive document 80% of the time. 
