@@ -46,3 +46,4 @@ You could also find an updated version on [coursera](https://www.coursera.org).
 2. I recommend reading [Introduction to Statisical learning with Applications in R.](http://www-bcf.usc.edu/~gareth/ISL/)
 - Really Awesome Book! 
 3. To be implemented with **number 2** for way way way more (beneficial) theory is [Elements of Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/).
+4. Had to add [this book](http://r4ds.had.co.nz/index.html) on R. It is too good. Too good.
