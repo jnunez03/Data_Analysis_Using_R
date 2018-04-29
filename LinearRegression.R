@@ -27,6 +27,8 @@ summary(Model3)
 SSE = sum(Model3$residuals^2)
 SSE #decreased
 
+# Breakdown of Summary() function on our model 
+
 # If a coefficient is not significantly different from 0, then we should
 # remove the variable from our model.
 
@@ -36,11 +38,11 @@ SSE #decreased
 # t-value is the estimate divided by the standard error.
 # The larger the t-value is the more likely it is to be significant. 
 
-# last column; less value is the less likely that our coefficient is 0.
-# IF abs of T is small, it will be large. 
+# last column; a small p -value means that it is less likely that our coefficient is 0.
+# If absolute value of T is small, p-value will be large. 
 
-# The Stars show significance. 3 stars is highest level of significance.
-# p-value less than .001.
+# The stars show significance. 3 stars is highest level of significance.
+# will display a p-value less than .001.
 # 
 # Make a new model taking out FrancePop. Before we saw it wasn't significant. 
 model4 = lm(Price ~ AGST + HarvestRain + WinterRain + Age, data =wine)
